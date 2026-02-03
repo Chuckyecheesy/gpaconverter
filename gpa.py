@@ -10,7 +10,7 @@ def scale12_to_gpa(gpa_12):
 
 def scale5_to_gpa(gpa_5):
     """Convert 5-point scale to 4.0 GPA"""
-    return gpa_5 / 12 * 4
+    return gpa_5 / 5 * 4
 
 def letter_grade_to_gpa(grade):
     """Convert letter grade to 4.0 GPA"""
